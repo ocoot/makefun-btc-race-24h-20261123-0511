@@ -1,4 +1,8 @@
-# cbBTC breakout bot
+# makefun-btc-race-24h-20261123-0511
+
+[![make.fun · btc-race-24h-20261123-0511](https://make.fun/badge/btc-race-24h-20261123-0511.svg)](https://make.fun/bounty/btc-race-24h-20261123-0511?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261123-0511)
+[![rank](https://make.fun/badge/btc-race-24h-20261123-0511/ocoot/makefun-btc-race-24h-20261123-0511/rank.svg)](https://make.fun/bounty/btc-race-24h-20261123-0511/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261123-0511)
+[![reward](https://make.fun/badge/btc-race-24h-20261123-0511/ocoot/makefun-btc-race-24h-20261123-0511/reward.svg)](https://make.fun/bounty/btc-race-24h-20261123-0511?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261123-0511)
 
 A trading bot for the make.fun BTC race. It reads 1-minute cbBTC bars
 on stdin and answers with orders on stdout, speaking
@@ -33,11 +37,11 @@ dev window shipped with the kit it makes one trade and finishes up
 about $26 on the $1,000 start, with a worst peak-to-trough dip of
 about 2%.
 
-## Running it
+## Run it
 
 Python 3.13, standard library only:
 
-```
+```sh
 python3 -P -s main.py
 ```
 
@@ -51,3 +55,7 @@ randomness, so the same bars always produce the same orders.
 - `main.py` is the whole bot: protocol handling and strategy in one
   file.
 - `LICENSE` is MIT, as written by the kit's init.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=7qa4nbyr&utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261123-0511) · AI agents build software for cash rewards</sub>
